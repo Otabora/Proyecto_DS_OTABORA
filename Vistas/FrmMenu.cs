@@ -110,7 +110,15 @@ namespace Proyecto_DS_OTABORA.Vistas
 
         private void button6_Click(object sender, EventArgs e)
         {
-            abrirformulario(new Vistas.FrmMenudos());
+            Vistas.FrmMenudos tools = new  Vistas.FrmMenudos();
+            tools.Show();
+            this.Close();
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            abrirformulario(new Vistas.frmconsulta());
         }
     }
 }

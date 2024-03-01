@@ -47,7 +47,7 @@ namespace Proyecto_DS_OTABORA.Vistas.Autenticacion
             {
 
                 Vistas.FrmMenu menu = new Vistas.FrmMenu();
-                menu.ShowDialog();
+                menu.ShowDialog();//hola
                 this.Hide();
             }
         }

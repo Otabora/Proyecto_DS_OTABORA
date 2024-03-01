@@ -144,6 +144,12 @@
     <Compile Include="Vistas\FrmCitas.Designer.cs">
       <DependentUpon>FrmCitas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\frmconsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmconsulta.Designer.cs">
+      <DependentUpon>frmconsulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\FrmDoctores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,12 @@
     </Compile>
     <Compile Include="Vistas\FrmPreclinica.Designer.cs">
       <DependentUpon>FrmPreclinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FrmReceta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmReceta.Designer.cs">
+      <DependentUpon>FrmReceta.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -219,6 +231,9 @@
     <EmbeddedResource Include="Vistas\FrmCitas.resx">
       <DependentUpon>FrmCitas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmconsulta.resx">
+      <DependentUpon>frmconsulta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FrmDoctores.resx">
       <DependentUpon>FrmDoctores.cs</DependentUpon>
     </EmbeddedResource>
@@ -236,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FrmPreclinica.resx">
       <DependentUpon>FrmPreclinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmReceta.resx">
+      <DependentUpon>FrmReceta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -261,10 +279,12 @@
     <Content Include="Iconos\casa.png" />
     <Content Include="Iconos\cerrar-sesion.png" />
     <Content Include="Iconos\cerrar.png" />
+    <Content Include="Iconos\configuraciones.png" />
     <Content Include="Iconos\contrasena.png" />
     <Content Include="Iconos\cuenta.png" />
     <Content Include="Iconos\diagnostico.png" />
     <Content Include="Iconos\disquete.png" />
+    <Content Include="Iconos\doctor %281%29.png" />
     <Content Include="Iconos\doctor.png" />
     <Content Include="Iconos\documento.png" />
     <Content Include="Iconos\editar.png" />
@@ -274,6 +294,7 @@
     <Content Include="Iconos\equipo-medico %283%29.png" />
     <Content Include="Iconos\equipo-medico.png" />
     <Content Include="Iconos\estetoscopio.png" />
+    <Content Include="Iconos\gerente-de-proyecto.png" />
     <Content Include="Iconos\guardarropa.png" />
     <Content Include="Iconos\historial-medico.png" />
     <Content Include="Iconos\impresora.png" />
@@ -292,6 +313,7 @@
     <Content Include="Iconos\status.png" />
     <Content Include="Iconos\trasplantologo.png" />
     <Content Include="Iconos\usuario %281%29.png" />
+    <Content Include="Iconos\usuario %282%29.png" />
     <Content Include="Iconos\usuario.png" />
     <Content Include="Iconos\x.png" />
   </ItemGroup>

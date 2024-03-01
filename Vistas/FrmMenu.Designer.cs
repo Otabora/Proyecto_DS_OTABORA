@@ -34,7 +34,6 @@
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.BtnMenudos = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.BtnPreClinica = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -54,6 +53,9 @@
             this.StPrincipal = new System.Windows.Forms.StatusStrip();
             this.LblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.PanelContenedor = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BtnMenudos = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -102,8 +104,10 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.MenuVertical.Controls.Add(this.panel1);
+            this.MenuVertical.Controls.Add(this.panel8);
             this.MenuVertical.Controls.Add(this.BtnMenudos);
+            this.MenuVertical.Controls.Add(this.button1);
+            this.MenuVertical.Controls.Add(this.panel1);
             this.MenuVertical.Controls.Add(this.panel6);
             this.MenuVertical.Controls.Add(this.BtnPreClinica);
             this.MenuVertical.Controls.Add(this.panel5);
@@ -130,24 +134,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(9, 31);
             this.panel1.TabIndex = 6;
-            // 
-            // BtnMenudos
-            // 
-            this.BtnMenudos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.BtnMenudos.FlatAppearance.BorderSize = 0;
-            this.BtnMenudos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.BtnMenudos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMenudos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMenudos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnMenudos.Image = ((System.Drawing.Image)(resources.GetObject("BtnMenudos.Image")));
-            this.BtnMenudos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnMenudos.Location = new System.Drawing.Point(12, 300);
-            this.BtnMenudos.Name = "BtnMenudos";
-            this.BtnMenudos.Size = new System.Drawing.Size(169, 31);
-            this.BtnMenudos.TabIndex = 7;
-            this.BtnMenudos.Text = "Emergencias";
-            this.BtnMenudos.UseVisualStyleBackColor = false;
-            this.BtnMenudos.Click += new System.EventHandler(this.BtnMenudos_Click);
             // 
             // panel6
             // 
@@ -193,11 +179,11 @@
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(12, 261);
+            this.button6.Location = new System.Drawing.Point(16, 388);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(169, 31);
+            this.button6.Size = new System.Drawing.Size(165, 31);
             this.button6.TabIndex = 8;
-            this.button6.Text = "Farmacia";
+            this.button6.Text = "   Configuracion";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -231,7 +217,7 @@
             this.BtnConsultas.Name = "BtnConsultas";
             this.BtnConsultas.Size = new System.Drawing.Size(160, 31);
             this.BtnConsultas.TabIndex = 6;
-            this.BtnConsultas.Text = "Consultas/Cita";
+            this.BtnConsultas.Text = "Agendar Cita";
             this.BtnConsultas.UseVisualStyleBackColor = false;
             this.BtnConsultas.Click += new System.EventHandler(this.BtnConsultas_Click);
             // 
@@ -383,6 +369,49 @@
             this.PanelContenedor.TabIndex = 3;
             this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(18, 300);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(160, 31);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Consultas";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // BtnMenudos
+            // 
+            this.BtnMenudos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.BtnMenudos.FlatAppearance.BorderSize = 0;
+            this.BtnMenudos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.BtnMenudos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMenudos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMenudos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnMenudos.Image = ((System.Drawing.Image)(resources.GetObject("BtnMenudos.Image")));
+            this.BtnMenudos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnMenudos.Location = new System.Drawing.Point(18, 263);
+            this.BtnMenudos.Name = "BtnMenudos";
+            this.BtnMenudos.Size = new System.Drawing.Size(160, 31);
+            this.BtnMenudos.TabIndex = 11;
+            this.BtnMenudos.Text = "        Medicamentos";
+            this.BtnMenudos.UseVisualStyleBackColor = false;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel8.Location = new System.Drawing.Point(3, 388);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(9, 31);
+            this.panel8.TabIndex = 7;
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -427,7 +456,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button BtnMenudos;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button BtnConsultas;
         private System.Windows.Forms.Panel panel6;
@@ -439,5 +467,8 @@
         private System.Windows.Forms.StatusStrip StPrincipal;
         private System.Windows.Forms.ToolStripStatusLabel LblUsuario;
         private System.Windows.Forms.Panel PanelContenedor;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnMenudos;
+        private System.Windows.Forms.Panel panel8;
     }
 }

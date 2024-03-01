@@ -10,23 +10,16 @@ using System.Windows.Forms;
 
 namespace Proyecto_DS_OTABORA.Vistas
 {
-    public partial class FrmMenudos : Form
+    public partial class FrmReceta : Form
     {
-        public FrmMenudos()
+        public FrmReceta()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Vistas.FrmMenu menu = new Vistas.FrmMenu();
-            menu.Show();
             this.Close();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
